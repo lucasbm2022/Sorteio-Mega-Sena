@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+}
+  
+body{
+    background-image: url('fundo.jpeg');
+    max-width: 100%;
+    max-height: 100%;
+}
+  
+@font-face {
+    font-family: 'gobold';
+    src: url('fonts/Gobold\ Bold.otf') format('truetype');
+}
+@font-face {
+    font-family: 'monofonto';
+    src: url('fonts/monofonto\ rg.otf') format('truetype');
+}
+  
+
+  
+.titulo{
+    font-size: 30px;
+    font-family: 'gobold', sans-serif;
+    padding: 10px;
+}
+  
+.div{
+    background: rgba(180, 154, 110, 0.725);
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;   
+    height: 250px;
+    width: 400px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.74);  
+}
+  
+p{
+    padding: 15px;
+}
+  
+.button{
+    height: 2.2em;
+    width: 5.5em;
+    font-family: 'monofonto', sans-serif;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+  
+.button{
+    background-color: #812a2bd8;
+    width: 170px;
+    height: 35px;
+    color: #00090c;
+    font-size: 12px;
+    border-radius: 5px 5px 5px 5px;
+}
+  
+.button:active {
+    background-color: #8d2c17b2;
+    box-shadow: 0 2px #492020b2;
+    transform: translateY(4px);
+}
+  
+.button:hover{
+    cursor: pointer;
+}
+  
+#resultado{
+    display: inline;
+    width: 100px;
+    font: 1em sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+}
